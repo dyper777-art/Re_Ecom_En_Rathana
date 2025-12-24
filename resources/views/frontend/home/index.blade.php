@@ -37,6 +37,7 @@
                             </div>
                             <div class="why-text">
                                 <h3><strong>{{ $products[$i]->name }}</strong></h3>
+                                <h4><strong>Description: {{ $products[$i]->description }}</strong></h4>
                                 <h5> ${{ $products[$i]->price }}</h5>
                             </div>
                         </div>
